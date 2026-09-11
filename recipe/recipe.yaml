@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.11.6"
+  version: "0.11.7"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ad-hoc-diffractometer/ad_hoc_diffractometer-${{ version }}.tar.gz
-  sha256: 32c14d04713dae63fde369d48f679eb015227f2c08bd2ece9d50f96880812e26
+  sha256: 5b3131dbae03493093f643cfe2b1a1bdb87ffe9cbc43687bbf74f56ffad9ab51
 
 build:
   noarch: python
